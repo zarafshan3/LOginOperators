@@ -204,7 +204,7 @@ body {
   left: -100%;
   opacity: 0;
 }
-.container.active {
+/* .container.active {
   width: 260px;
   height: 140px;
   margin-top: -70px;
@@ -213,9 +213,9 @@ body {
   left: 30px;
   width: 200px;
   height: 200px;
-}
+} */
 .container.active .container-form:before {
-  content: "✔";
+  content: "";
   position: absolute;
   left: 51px;
   top: 5px;
@@ -223,17 +223,17 @@ body {
   font-size: 130px;
   opacity: 1;
 }
-.container.active input, .container.active .btn, .container.active .info-item {
+/* .container.active input, .container.active .btn, .container.active .info-item {
   display: none;
   opacity: 0;
   padding: 0px;
   margin: 0 auto;
   height: 0;
-}
+} */
 .container.active .form-item {
   height: 100%;
 }
-.container.active .container-forms .container-info .info-item {
+/* .container.active .container-forms .container-info .info-item {
   height: 0%;
   opacity: 0;
-}
+} */
